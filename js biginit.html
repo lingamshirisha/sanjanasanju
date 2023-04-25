@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavScript Bigint</h1>
+<p>A BigInt can not have decimals.</p>
+
+<p id="demo"></p>
+
+<p>You cannot perform math between a BigInt type and a Number type.</p>
+
+<script>
+let x = BigInt("123456789012345678901234567890");
+document.getElementById("demo").innerHTML = x; 
+</script>
+
+
+
+
+
+<h1>js boolenes</h1>
+    <p>boolenes can have two values true or false</p>
+    <p id ="demo"></p>
+<script>
+    let a = 5;
+    let b = 5;
+    let c = 6;
+    document.getElementById("demo").innerHTML = 
+    (a == b) + "<br>" + (a == c);
+</script>
+
+
+<h1>js object</h1>
+<p id = "demo"></p>
+<script> 
+const person = {
+    firstname : "shirisha",
+    lastname : "lingam",
+    age : "20",
+    favouratecolor : "biue"
+};
+document.getElementById("demo").innerHTML = 
+person.firstname + "is" + person.age + "year old";
+</script>
+</body>
+</html>
